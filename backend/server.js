@@ -33,6 +33,10 @@ app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).json({ message: 'Something went wrong!' });
 });
+// Add this before your other routes
+app.get('/health', (req, res) => {
+  res.status(200).json({ status: 'ok', message: 'Server is running' });
+});
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
