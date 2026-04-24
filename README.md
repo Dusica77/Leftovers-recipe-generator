@@ -36,8 +36,6 @@
 - **Express.js** - Web framework
 - **MongoDB Atlas** - Database
 - **JWT** - Authentication
-- **Bcryptjs** - Password hashing
-- **Nodemailer** - Email services
 
 ## 📁 Project Structure
 leftovers-recipe-generator/
