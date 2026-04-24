@@ -42,44 +42,8 @@
 ## 📁 Project Structure
 leftovers-recipe-generator/
 ├── backend/
-│ ├── models/
-│ │ ├── User.js
-│ │ └── SavedRecipe.js
-│ ├── routes/
-│ │ ├── auth.js
-│ │ ├── recipes.js
-│ │ └── savedRecipes.js
-│ ├── middleware/
-│ │ └── auth.js
-│ ├── services/
-│ │ └── emailService.js
-│ ├── data/
-│ │ └── ingredients.js
-│ ├── server.js
-│ └── package.json
 ├── frontend/
-│ ├── public/
-│ │ └── index.html
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── Navbar.jsx
-│ │ │ ├── IngredientChecklist.jsx
-│ │ │ ├── RecipeCard.jsx
-│ │ │ └── ShareModal.jsx
-│ │ ├── pages/
-│ │ │ ├── Home.jsx
-│ │ │ ├── Login.jsx
-│ │ │ ├── Signup.jsx
-│ │ │ ├── Dashboard.jsx
-│ │ │ ├── SavedRecipes.jsx
-│ │ │ ├── ForgotPassword.jsx
-│ │ │ ├── ResetPassword.jsx
-│ │ │ └── VerifyEmail.jsx
-│ │ ├── App.jsx
-│ │ ├── index.js
-│ │ └── index.css
-│ └── package.json
-└── README.md
+
 
 
 ## 🛠️ Installation
